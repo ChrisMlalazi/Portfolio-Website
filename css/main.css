@@ -1,0 +1,272 @@
+/*****************
+BODY
+*****************/
+
+
+* {
+  box-sizing: border-box;
+  
+   margin: 0 auto;
+   padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif; 
+  background-color: grey;
+  width: 100%;
+  height: auto;    
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+a{
+  text-decoration: none;
+}
+
+/***************
+
+HOME PAGE
+
+***************/
+
+.wrapper{
+  width: 100px;
+}
+
+/**** Menu **************/
+
+header{
+  height: 120px;
+  margin-top: -120px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #b0c4de;
+}
+
+.name,
+.menu {
+  font-size: .9em;
+}
+
+ .name {
+  padding-top: 10px;
+  margin-left: 20px;
+ }
+
+ .menu {
+   margin-right: 20px;
+   margin-top: -10px;
+   float: right;
+   background-color: ;
+   
+ }
+
+
+.menu li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+
+.menu li a{
+  color: black;
+  
+ 
+}
+
+
+
+/******* end of menu ***********/
+
+
+
+.container { 
+    margin-top: 120px;  
+     width: 100%;
+               
+}
+
+.mainImage h3{
+  color: grey;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mainImage {
+   background-image: url("../img/chris5.png");
+    background-repeat:  no-repeat; 
+    margin: 0 auto; 
+    height: 300px;
+    width: 100%;
+    border: 3px white solid;s
+    background-position: center;
+    background-size: cover; 
+}
+
+.quotation  {
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  width: 37%;
+  float: left;
+  position: relative;
+  bottom: 200px;
+}
+
+.quotation p {
+  text-align: center;
+  font-size: .6em;
+}
+
+/**************
+
+FOOTER
+
+**************/
+
+footer{
+  text-align: center;
+}
+
+
+/***********
+
+MEDIA QUERIES
+
+************/
+
+@media screen and (min-width: 500px) {
+ 
+body {
+    background-color: orange;
+  }
+
+.menu {
+     margin-right: 30px;
+  }
+
+
+.container {    
+    height: 400px;
+    width: 100%;
+  }
+
+.mainImage h3{
+  margin-top: 30px;
+}
+
+.mainImage {
+    height: 400px;
+    width: 100%;
+}
+
+.quotation  {
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  width: 35%;
+  float: left;
+  font-size: 1.5em;
+  position: relative;
+  bottom: 250px;
+  
+}
+
+}
+
+
+@media screen and (min-width: 765px) {
+
+ body {
+  background-color: red;
+ }
+header{
+  margin-top: -0;
+  height: 50px;
+}
+
+.menu {
+      float: right;
+  }
+    
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+   
+ }
+
+.container {   
+    margin-top: 0; 
+    width: 100%;
+    height: 600px;
+  }
+
+.mainImage h3{ 
+  margin-top: 60px;
+}
+
+  .mainImage {
+    height: 600px;
+    width: 100%;
+}
+
+.quotation  {
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  width: 30%;
+  float: left;
+  font-size: 1.8em;
+  position: relative;
+  bottom: 300px;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
+
+.container {   
+    margin-top: 0; 
+    width: 100%;
+    height: 650px;
+  }
+
+.mainImage h3{
+  margin-top: 70px;
+  font-size: 2em;
+}
+
+  .mainImage {
+    height: 650px;
+    width: 100%;
+}
+
+.quotation  {
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  width: 30%;
+  float: left;
+  font-size: 1.8em;
+  position: relative;
+  bottom: 260px;
+}
+
+}
+
+
+
+
+
+
