@@ -14,9 +14,10 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Open Sans", sans-serif; 
-  background-color: grey;
+  background-image: url("../img/aboutbackground.png");
   width: 100%;
-  height: auto;    
+  height: auto;  
+
 }
 
 .clearfix::after {
@@ -56,13 +57,13 @@ header{
 }
 
  .name {
-  padding-top: 10px;
+  padding-top: 15px;
   margin-left: 20px;
  }
 
  .menu {
    margin-right: 20px;
-   margin-top: -10px;
+   margin-top: -15px;
    float: right;
    background-color: ;
    
@@ -72,13 +73,21 @@ header{
 .menu li {
     margin-bottom: 10px;
     list-style-type: none;
+    border: 1px purple solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.menu li:hover {
+  background-color: #b0c4de;
 }
 
 
 .menu li a{
-  color: black;
-  
- 
+  color: black;   
 }
 
 
@@ -127,12 +136,65 @@ header{
 
 /**************
 
+ABOUT
+
+**************/
+
+.bio{
+  /*text-align: center;*/
+
+}
+
+.bio:first-line {
+  font-weight: bold; 
+  font-size: 1em;
+} 
+
+.bio::first-letter {
+  float:left;
+  font-size: 2em;
+  color: #b0c4de;
+  padding:5px 5px;
+  background: purple;
+  margin: -8px 5px 0 0;
+  border-radius:5px;
+  line-height: 1;
+  
+}
+.briefTittle{
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.brief{
+  height: auto;
+  width: 95%;
+  border-radius: 5%;
+  border: 1px solid white;
+  padding: 20px;
+  font-size: 1.1em;
+  color: black;
+  line-height: 1.5;
+ 
+}
+
+.contact {
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/**************
+
 FOOTER
 
 **************/
 
 footer{
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -151,7 +213,6 @@ body {
 .menu {
      margin-right: 30px;
   }
-
 
 .container {    
     height: 400px;
@@ -179,6 +240,10 @@ body {
   
 }
 
+.brief {
+  margin-top: 20px;
+}
+
 }
 
 
@@ -187,9 +252,10 @@ body {
  body {
   background-color: red;
  }
+
 header{
   margin-top: -0;
-  height: 50px;
+  height: 60px;
 }
 
 .menu {
@@ -226,6 +292,10 @@ header{
   font-size: 1.8em;
   position: relative;
   bottom: 300px;
+}
+
+.brief{
+  border-radius: 20px;
 }
 
 }
