@@ -179,6 +179,10 @@ ABOUT
  
 }
 
+#about {
+  padding-top: 60px;
+}
+
 .contact {
   background-color: white;
   padding: 2px;
