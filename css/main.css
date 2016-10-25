@@ -49,6 +49,7 @@ header{
   width: 100%;
   z-index: 1;
   background-color: #b0c4de;
+  
 }
 
 .name,
@@ -139,7 +140,6 @@ header{
 ABOUT
 
 **************/
-
 .bio{
   /*text-align: center;*/
 
@@ -184,6 +184,108 @@ ABOUT
   padding: 2px;
   border-radius: 5px;
 }
+
+/**************
+
+PROJECTS
+***************/
+
+.background {
+  border-bottom: 20px solid #4b0082;
+  height: auto;
+  
+  }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.background {
+  background-color: #add8e6;
+}
+
+.interactive {
+  color: #4b0082;
+  font-size: .8em;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.inter{
+  color: black;
+  font-size: .8em;
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+
+.field{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width:100%;
+}
+
+.nature {
+  margin-left: 40px;
+  color: #696969;
+  font-family: 'kalam', sans-serif; 
+}
+
+.gallery {
+  max-width: 100%;
+  margin-top: 140px;
+}
+
+
+img:hover {
+transform:skewY(1.5deg);
+
+}
+
+.lightbox  {
+  list-style: none;
+  max-width: 980px;
+  padding: 10px;
+  margin: 10px auto;
+
+  
+}
+
+ .lightbox img {
+    transition: transform .5s;
+    width: 70%;
+    height: 70%;
+    border: 3px solid white;
+    transition-property: box-shadow;
+    transition-duration:  .4s;
+    margin-bottom: 20px;
+    margin: 20px;
+
+    
+
+ }
+
+ .lightbox li {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);     
+}
+  
+
+img:hover {
+  
+  box-shadow: 0 0 15px rgba(0,0, 0, .7);
+ 
+
+}
+
+
 
 /**************
 
@@ -244,6 +346,39 @@ body {
   margin-top: 20px;
 }
 
+/***********GAllery**********/
+
+.lightbox li {
+    display: inline-block;
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 6%;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.06);
+     border-radius: 10px;
+    
+}
+
+.lightbox img {
+   width: 85%;
+   height: 200px;
+}
+
+
+
+.nature {
+  margin-top: 10px;
+  margin-left: 40px;
+  color: #696969;
+  font-family: 'kalam', sans-serif; 
+}
+
+.inter {
+  margin-bottom: 5px;
+}
+
 }
 
 
@@ -296,6 +431,49 @@ header{
 
 .brief{
   border-radius: 20px;
+}
+
+
+ /*******************
+ 
+ Gallery
+
+ ********************/
+
+
+.galleryTitle{
+  float: left;
+  margin-left: 50px;
+  margin-top: 65px;
+  color: #4b0082;
+  font-size: 2em;
+
+}
+
+.nav2 {
+  height: 80px;
+  background-color: white;
+}
+
+.field {
+  background-color: red;
+  height: 80px;
+}
+
+.lightbox li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 37px;
+    width: 28%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.1);     
+}
+
+.lightbox li:nth-child(3) {
+
+  padding-top: 1.2%;
+
 }
 
 }
