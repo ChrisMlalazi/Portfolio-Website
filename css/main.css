@@ -316,6 +316,12 @@ body {
     background-color: orange;
   }
 
+  .bio,
+  .bio2{
+    width: 90%;
+    font-size: 1em;
+  }
+
 .menu {
      margin-right: 30px;
   }
