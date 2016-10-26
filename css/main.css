@@ -254,7 +254,7 @@ transform:skewY(1.5deg);
 
 .lightbox  {
   list-style: none;
-  max-width: 980px;
+  width: 100%;
   padding: 10px;
   margin: 10px auto;
 
