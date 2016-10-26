@@ -156,7 +156,7 @@ ABOUT
   color: #b0c4de;
   padding:5px 5px;
   background: purple;
-  margin: -8px 5px 0 0;
+  margin: 5px 5px 0 0;
   border-radius:5px;
   line-height: 1;
   
@@ -194,99 +194,61 @@ ABOUT
 PROJECTS
 ***************/
 
-.background {
-  border-bottom: 20px solid #4b0082;
-  height: auto;
-  
-  }
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.background {
-  background-color: #add8e6;
-}
-
-.interactive {
-  color: #4b0082;
-  font-size: .8em;
-  text-align: center;
-  margin-top: -40px;
-  margin-bottom: 10px;
-  font-weight: bold;
-
-}
-
-.inter{
-  color: black;
-  font-size: .8em;
-  text-align: center;
-  margin-bottom: -30px;
-}
-
-
-.field{
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width:100%;
-}
-
-.nature {
-  margin-left: 40px;
-  color: #696969;
-  font-family: 'kalam', sans-serif; 
-}
-
 .gallery {
-  max-width: 100%;
-  margin-top: 140px;
+  max-width: 1400px;
+  margin-top: 50px;
+
 }
 
-
-img:hover {
-transform:skewY(1.5deg);
-
+.projects{
+  text-align: center;
 }
 
 .lightbox  {
+
   list-style: none;
   width: 100%;
   padding: 10px;
-  margin: 10px auto;
-
-  
+  margin-top: -30px;  
 }
 
- .lightbox img {
-    transition: transform .5s;
-    width: 70%;
-    height: 70%;
-    border: 3px solid white;
-    transition-property: box-shadow;
-    transition-duration:  .4s;
-    margin-bottom: 20px;
-    margin: 20px;
-
-    
-
- }
+/******* this is for the image container ******/
 
  .lightbox li {
     margin-top: 50px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.1);     
 }
-  
+
+/********** This is for the image ************/
+ .lightbox img {
+    width: 80%;
+    height: 70%;
+    border: 3px solid white;
+    transition-property: box-shadow;
+    transition-duration:  .4s;
+    transition: transform .5s;
+    border-radius: 10px;
+    margin: 30px;
+
+   
+ }
 
 img:hover {
-  
-  box-shadow: 0 0 15px rgba(0,0, 0, .7);
- 
+   transform:skewY(1.5deg);
 
+}
+  
+img:hover {
+  
+  box-shadow: 0 0 15px rgba(0,0, 0, .7); 
+}
+
+.projectHeader {
+  padding-top: 10px;
+  margin-left: 40px;
+  color: #696969;
+  font-family: 'kalam', sans-serif; 
 }
 
 
@@ -360,33 +322,13 @@ body {
 
 .lightbox li {
     display: inline-block;
- 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 6%;
-    width: 40%;
-    height: 50%;
-    background-color: rgba(0,0,0,0.06);
-     border-radius: 10px;
-    
+    margin-left: 10px;
+    width: 47%;         
 }
 
 .lightbox img {
-   width: 85%;
+   width: 80%;
    height: 200px;
-}
-
-
-
-.nature {
-  margin-top: 10px;
-  margin-left: 40px;
-  color: #696969;
-  font-family: 'kalam', sans-serif; 
-}
-
-.inter {
-  margin-bottom: 5px;
 }
 
 }
@@ -450,40 +392,9 @@ header{
 
  ********************/
 
-
-.galleryTitle{
-  float: left;
-  margin-left: 50px;
-  margin-top: 65px;
-  color: #4b0082;
-  font-size: 2em;
-
-}
-
-.nav2 {
-  height: 80px;
-  background-color: white;
-}
-
-.field {
-  background-color: red;
-  height: 80px;
-}
-
 .lightbox li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 37px;
-    width: 28%;
-    height: 50%;
-    background-color: rgba(0,0,0,0.1);     
-}
-
-.lightbox li:nth-child(3) {
-
-  padding-top: 1.2%;
-
+    margin-left: 20px;
+    width: 30%;   
 }
 
 }
