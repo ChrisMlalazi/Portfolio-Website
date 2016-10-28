@@ -365,13 +365,14 @@ SKILLS
 
 /**************
 
-SOCIAL
+SOCIAL MEDIA
 
 **************/
 .fa-envelope-o{
   padding: 1px;
   border-radius: 3px;
   font-size: 1.8em;
+  color: purple;
 }
 
 .socialList{
@@ -382,9 +383,7 @@ SOCIAL
 }
 
 .contactList{
-
   margin-bottom: 20px;
-
 }
 
 .emailList{
@@ -426,6 +425,20 @@ footer a{
   opacity: 1;
 }
 
+#arrow{
+  float: right;
+  margin-right: 100px;
+  position: relative;
+  bottom: 40px;
+}
+
+
+.fa-arrow-circle-up{
+  font-size: 5em;
+  color: purple;
+
+}
+
 
 
 
@@ -437,10 +450,6 @@ MEDIA QUERIES
 
 @media screen and (min-width: 500px) {
  
-body {
-    background-color: orange;
-  }
-
   .bio,
   .bio2{
     width: 90%;
@@ -494,6 +503,7 @@ body {
 }
 
 @media screen and (max-width: 764px) {
+  
   .skillsList1 {
     display: none;
   }
@@ -563,9 +573,6 @@ header{
 
 
 @media screen and (min-width: 1024px) {
-  body {
-    background-color: yellow;
-  }
 
 .container {   
     margin-top: 0; 
