@@ -427,14 +427,14 @@ footer a{
 
 #arrow{
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
   position: relative;
-  bottom: 40px;
+  bottom: 18px;
 }
 
 
 .fa-arrow-circle-up{
-  font-size: 5em;
+  font-size: 2em;
   color: purple;
 
 }
@@ -498,6 +498,27 @@ MEDIA QUERIES
 .lightbox img {
    width: 80%;
    height: 200px;
+}
+
+/*************  Footer *************/
+
+footer a{
+  color: black;
+  opacity: 1;
+}
+
+#arrow{
+  float: right;
+  margin-right: 80px;
+  position: relative;
+  bottom: 40px;
+}
+
+
+.fa-arrow-circle-up{
+  font-size: 5em;
+  color: purple;
+
 }
 
 }
