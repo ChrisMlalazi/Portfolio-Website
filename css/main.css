@@ -139,6 +139,26 @@ header{
   font-size: .6em;
 }
 
+
+.skillsList1 li{
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  border: 1px purple solid;
+  border-radius: 100%;
+  background-color: #b0c4de;
+  padding-top: 22px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  bottom: 400px;
+  font-weight: bold; 
+  font-size: .6em; 
+  margin-left: 10px;
+  color: black;
+  opacity: .5;
+}
 /**************
 
 ABOUT
@@ -230,7 +250,7 @@ PROJECTS
     margin-top: 50px;
     border-radius: 10px;
     background-color: white;   
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); 
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); 
 }
 
 /********** This is for the image ************/
@@ -396,6 +416,12 @@ body {
    height: 200px;
 }
 
+}
+
+@media screen and (max-width: 764px) {
+  .skillsList1 {
+    display: none;
+  }
 }
 
 
