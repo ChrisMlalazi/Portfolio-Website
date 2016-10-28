@@ -48,7 +48,11 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1;
-  background-color: #b0c4de;
+  background: linear-gradient(#b0c4de, transparent 300%),
+                 url('../img/world.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
   
 }
 
@@ -225,7 +229,8 @@ PROJECTS
  .lightbox li {
     margin-top: 50px;
     border-radius: 10px;
-    background-color: white;     
+    background-color: white;   
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); 
 }
 
 /********** This is for the image ************/
@@ -289,9 +294,13 @@ SKILLS
 
 .skillsList{
   padding-left: 0px;
-  background-color: #b0c4de;
   border: 1px solid white;
   border-radius: 10px;
+  background: linear-gradient(#b0c4de, transparent 300%),
+                 url('../img/world.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
 }
 
 .skillsList li{
