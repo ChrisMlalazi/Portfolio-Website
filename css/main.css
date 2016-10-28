@@ -52,6 +52,7 @@ header{
                  url('../img/world.jpg') no-repeat;
   background-size: cover;
   overflow: hidden;
+  border-bottom: 2px solid purple;
 
   
 }
@@ -364,6 +365,47 @@ SKILLS
 
 /**************
 
+SOCIAL
+
+**************/
+.fa-envelope-o{
+  padding: 1px;
+  border-radius: 3px;
+  font-size: 1.8em;
+}
+
+.socialList{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  clear: all;
+}
+
+.contactList{
+
+  margin-bottom: 20px;
+
+}
+
+.emailList{
+
+  margin-bottom: 20px;
+
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+  opacity: .5; 
+}
+
+.social:hover {
+  opacity: 8; 
+}
+
+
+/**************
+
 FOOTER
 
 **************/
@@ -372,7 +414,19 @@ footer{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: .7em;
+  clear: all;
+  font-weight: bold;
+  color: black;
+  opacity: .8;
 }
+
+footer a{
+  color: black;
+  opacity: 1;
+}
+
+
 
 
 /***********
@@ -489,8 +543,8 @@ header{
 
 .brief{
   border-radius: 20px;
-  color: green;
-  width: 70%;
+  color: black;
+  width: 90%;
 }
 
 
