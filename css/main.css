@@ -225,7 +225,7 @@ PROJECTS
  .lightbox li {
     margin-top: 50px;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.1);     
+    background-color: white;     
 }
 
 /********** This is for the image ************/
@@ -265,6 +265,50 @@ img:hover {
   margin-left: 40px;
   color: #696969;
   font-family: 'kalam', sans-serif; 
+}
+
+/*************
+SKILLS
+
+**************/
+
+.skills {
+ height: auto;
+  width: 95%;
+  border-radius: 5%;
+  
+  padding: 20px;
+  font-size: 1.1em;
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+  
+}
+
+
+
+.skillsList{
+  padding-left: 0px;
+  background-color: #b0c4de;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.skillsList li{
+  list-style-type: none;
+  margin-bottom: 20px;
+  list-style-type: none;
+  border: 5px purple solid;
+  border-radius: 100%;
+  background-color: white;
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  font-weight: bold; 
+  font-size: .9em; 
 }
 
 
