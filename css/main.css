@@ -389,7 +389,9 @@ SOCIAL MEDIA
 .emailList{
 
   margin-bottom: 20px;
-
+}
+.facebook{
+  border-radius: 40px;
 }
 
 .social {
