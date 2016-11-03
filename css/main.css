@@ -410,8 +410,6 @@ SOCIAL MEDIA
 .socialList{
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 0;
-  clear: all;
 }
 
 .contactList{
@@ -445,13 +443,14 @@ FOOTER
 
 footer{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
   font-size: .7em;
-  clear: all;
   font-weight: bold;
   color: black;
   opacity: .8;
+  background-color: #BDBDBD;
+  height: 130px;
+  padding-top: 60px;
 }
 
 footer a{
