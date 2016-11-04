@@ -44,44 +44,36 @@ HOME PAGE
 
 header{
   height: auto;
-  margin-top: -120px;
-  position: fixed;
+  margin-top: -120px;  
   width: 100%;
+  position: fixed;
   z-index: 1;
   background: linear-gradient(#b0c4de, transparent 300%),
                  url('../img/world.jpg') no-repeat;
   background-size: cover;
-  overflow: hidden;
   border-bottom: 2px solid purple;
 
   
 }
-
-.name,
-.menu {
-  font-size: .9em;
-}
-
- .name {
-  padding-top: 15px;
+.name {
+  padding: 15px;
   text-align: center;
   }
 
- .menu {
-  height: auto;
-  width: 80%; 
-   
+.menu {
+   width: 100%; 
  }
 
 
 .menu li {
-    margin-bottom: 10px;
     list-style-type: none;
     border: 1px purple solid;
-    margin-top: 5px;
-    background-color: white;
-    padding: 5px;
+    background-color: transparent;
+    padding: 7px;
     text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+
 }
 
 .menu li:hover {
@@ -162,10 +154,6 @@ header{
 ABOUT
 
 **************/
-.bio{
-  /*text-align: center;*/
-
-}
 
 .bio:first-line {
   font-weight: bold; 
@@ -186,8 +174,6 @@ ABOUT
 .briefTittle{
   margin-bottom: 10px;
   text-align: center;
-
-
 }
 
 
@@ -195,9 +181,8 @@ ABOUT
   height: auto;
   width: 95%;
   border-radius: 5%;
-  
   padding: 20px;
-  font-size: 1.1em;
+  font-size: 1em;
   color: black;
   line-height: 1.5;
  
@@ -486,10 +471,6 @@ MEDIA QUERIES
     font-size: 1em;
   }
 
-/*.menu {
-     margin-right: 30px;
-  }*/
-
 .container {    
     height: 400px;
   
@@ -572,25 +553,21 @@ footer a{
 @media screen and (min-width: 765px) {
 
 
-
+/**********  menu ***********/
 header{
-  margin-top: -0;
-  height: 60px;
+  margin-top: 0;
+  height: auto;
 }
 
 .name {
-  padding-top: 15px;
-  margin-left: 20px;
+  padding: 15px;
   float: left;
- }
+}
 
-
-
- .menu {
-   margin-right: 0;
-   margin-top: -15px;
-   float: right;
-   
+nav {
+   margin-right: 20px;
+   padding-top: 15px;
+   float: right; 
  }
 
 
@@ -598,10 +575,14 @@ header{
     display: inline-block;
     list-style-type: none;
     border: 1px purple solid;
-    border-radius: 10px;
     background-color: white;
-    text-align: center;
+    padding: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
     
+
 }
 
 .container {   
