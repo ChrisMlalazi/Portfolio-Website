@@ -44,7 +44,7 @@ HOME PAGE
 
 header{
   height: auto;
-  margin-top: -120px;  
+  margin-top: -230px;  
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -99,7 +99,7 @@ nav{
 
 
 .container { 
-    margin-top: 120px;  
+    margin-top: 230px;  
     max-width: 1400%;
                
 }
