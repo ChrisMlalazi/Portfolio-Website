@@ -525,12 +525,20 @@ MEDIA QUERIES
 .lightbox li {
     display: inline-block;
     margin-left: 10px;
-    width: 47%;         
+    width: 47%;   
+
 }
 
 .lightbox img {
    width: 80%;
    height: 200px;
+}
+
+.projectText1 {
+ padding: 20px 20px 20px 10px;
+ font-size: 1em;
+ height: 180px;
+ background-color: #F0F0F0 ;
 }
 
 /*************  Footer *************/
@@ -623,6 +631,12 @@ header{
     width: 30%;   
 }
 
+.projectText1 {
+ padding: 20px 20px 20px 10px;
+ font-size: 1em;
+ height: 180px;
+}
+
 }
 
 
@@ -647,6 +661,13 @@ header{
 .quotation  {
   position: relative;
   bottom: 260px;
+}
+
+.projectText1 {
+ padding: 20px 20px 20px 10px;
+ font-size: 1em;
+ height: 140px;
+
 }
 
 }
