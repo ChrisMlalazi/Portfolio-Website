@@ -235,11 +235,9 @@ PROJECTS
     height: auto;
 }
 
-.lightbox .projectText2 {
+.projectText2 {
   background-color: #b0c4de;
   color: black;
-  margin-top: 5px;
-  margin-bottom: 10px;
   padding: 10px;
   width: 70%;
   border-radius: 10px;
@@ -247,7 +245,12 @@ PROJECTS
   border: 1px solid purple;
 }
 
-.lightbox li button:hover{
+.pad{
+  margin-top: 10px;
+  color: white;
+}
+
+.lightbox .projectText2:hover{
   background-color: white;
    border: 1px solid orange;
 
@@ -259,7 +262,7 @@ PROJECTS
     height: 70%;
     border: 3px solid white;
     transition-property: box-shadow;
-    transition-duration:  .4s;
+    transition-duration:  .4s;                 
     transition: transform .5s;
     border-radius: 10px;
     margin: 30px;
@@ -296,7 +299,10 @@ img:hover {
  font-size: 1em;
  height: 100px;
  font-family: 'kalam';
+background-color: #F0F0F0 ;
 }
+
+
 
 
 
