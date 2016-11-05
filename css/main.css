@@ -231,7 +231,7 @@ PROJECTS
     height: auto;
 }
 
-.lightbox li button {
+.lightbox .projectText2 {
   background-color: #b0c4de;
   color: black;
   margin-top: 5px;
