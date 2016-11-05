@@ -67,6 +67,10 @@ header{
   width: 100%;
 }
 
+.menu .button{
+  color:black;
+}
+
 
 /******* end of menu ***********/
 
@@ -116,7 +120,7 @@ header{
   list-style-type: none;
   border: 1px purple solid;
   border-radius: 100%;
-  background-color: #b0c4de;
+  background-color: black;
   padding-top: 22px;
   width: 60px;
   height: 60px;
@@ -554,7 +558,7 @@ footer a{
     font-size: 1em;
     font-weight: bold;   
     cursor: pointer;
-}
+  }
   
   .line:last-child {
     margin-bottom: 0;
