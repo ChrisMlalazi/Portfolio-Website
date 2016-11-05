@@ -44,62 +44,35 @@ HOME PAGE
 
 header{
   height: auto;
-  margin-top: -230px;  
+  margin-top: -62px;  
   width: 100%;
   position: fixed;
   z-index: 1;
   background: linear-gradient(#b0c4de, transparent 300%),
                  url('../img/world.jpg') no-repeat;
   background-size: cover;
-  border-bottom: 2px solid purple;
-
-  
+  border-bottom: 2px solid purple;  
 }
-.name {
-  padding: 15px;
-  text-align: center;
-  }
 
-nav{
+ nav{
    width: 100%; 
-   background-color: transparent;
  }
 
+.name {
+ margin: 20px;
+ float: left; 
+  }
 
-.menu li {
-    list-style-type: none;
-    border: 1px purple solid;
-    padding: 7px;
-    text-align: center;
-    font-size: 1em;
-    font-weight: bold;
-
+.menu {
+  width: 100%;
 }
-
-.menu li:hover {
-  background-color: #b0c4de;
-}
-
-
-.menu li a{
-  color: black;   
-}
-
 
 
 /******* end of menu ***********/
 
-/******* hamburger menu ********/
-
-
-
-
-/********  end of hamburger menu ******/
-
-
 
 .container { 
-    margin-top: 230px;  
+    margin-top: 62px;  
     max-width: 1400%;
                
 }
@@ -206,12 +179,12 @@ ABOUT
 }
 
 #about {
-  padding-top: 65px;
+  padding-top: 10px;
   text-align: center;
 }
 
 #projects {
-  padding-top: 65px;
+  padding-top: 10px;
 }
 
 
@@ -229,7 +202,7 @@ PROJECTS
 
 .gallery {
   max-width: 1400px;
-  margin-top: 50px;
+  margin-top: 10px;
 
 
 }
@@ -550,6 +523,65 @@ footer a{
 }
 
 @media screen and (max-width: 764px) {
+
+  /**********  
+  Hamburger  
+  *************/
+
+
+  /*********  hamburger menu lines container ********/
+
+.listItems{
+  float: right;
+   margin-top: 15px;
+   margin-right: 30px;
+}
+
+/********* hamburger togle lines ********/
+   
+.line {
+    border-bottom: 4px solid #4b0082;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+/********* list items ********/
+.menu li {
+    list-style-type: none;
+    border: 1px purple solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;   
+    cursor: pointer;
+}
+  
+  .line:last-child {
+    margin-bottom: 0;
+  }
+  
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+
+  .menu li:hover {
+  background-color: #b0c4de;
+}
+
+
+.menu li a{
+  color: black;   
+}
+
+
+  .slide-down {
+    height: 200px;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  /**********  end of  Hamburger menu ********/
   
   .skillsList1 {
     display: none;
@@ -557,8 +589,11 @@ footer a{
 }
 
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 764px) {
 
+#about {
+  padding-top: 65px;
+}
 
 /**********  menu ***********/
 header{
@@ -567,16 +602,15 @@ header{
 }
 
 .name {
-  padding: 15px;
+  /*padding: 15px;*/
   float: left;
+   font-size: 1.2em;
 }
-
-.navMenu {
-   margin-right: 20px;
-   padding-top: 15px;
-   float: right; 
- }
-
+.menuList{
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
 
 .menu li {
     display: inline-block;
@@ -596,10 +630,11 @@ header{
   }
 
 .mainImage h3{ 
-  margin-top: 60px;
+  margin-top: 75px;
+  font-size: 1.4em;
 }
 
-  .mainImage {
+.mainImage {
     height: 600px;
     width: 100%;
 }
@@ -647,8 +682,8 @@ header{
   }
 
 .mainImage h3{
-  margin-top: 70px;
-  font-size: 2em;
+  margin-top: 83px;
+  font-size: 1.7em;
 }
 
   .mainImage {
