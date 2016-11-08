@@ -51,7 +51,7 @@ header{
   background: linear-gradient(#b0c4de, transparent 300%),
                  url('../img/world.jpg') no-repeat;
   background-size: cover;
-  border-bottom: 2px solid purple;  
+  border-bottom: 2px solid #800080;  
 }
 
  nav{
@@ -61,7 +61,8 @@ header{
 .name {
  margin: 20px;
  float: left; 
- color: black;
+ color: #000000;
+ font-family: 'Oswald', sans-serif;
   }
 
 .menu {
@@ -70,7 +71,7 @@ header{
 }
 
 .menu .button{
-  color:black;
+  color:#000000;
 }
 
 .menu li:hover{
@@ -88,9 +89,10 @@ header{
 }
 
 .mainImage h3{
-  color: grey;
+  color: #808080;
   text-align: center;
   margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .mainImage {
@@ -99,14 +101,14 @@ header{
     margin: 0 auto; 
     height: 300px;
     width: 100%;
-    border: 3px white solid;s
+    border: 3px #FFFFFF solid;
     background-position: center;
     background-size: cover;
 }
 
 .quotation  {
-  color: white;
-  background-color: purple;
+  color: #FFFFFF;
+  background-color: #800080;
   padding: 10px;
   width: 37%;
   float: left;
@@ -124,9 +126,9 @@ header{
   text-align: center;
   list-style-type: none;
   list-style-type: none;
-  border: 1px purple solid;
+  border: 1px #800080 solid;
   border-radius: 100%;
-  background-color: white;
+  background-color: #FFFFFF;
   padding-top: 22px;
   width: 60px;
   height: 60px;
@@ -136,7 +138,7 @@ header{
   font-weight: bold; 
   font-size: .6em; 
   margin-left: 10px;
-  color: black;
+  color: #000000;
   opacity: .5;
 }
 /**************
@@ -155,7 +157,7 @@ ABOUT
   font-size: 2em;
   color: #b0c4de;
   padding:5px 5px;
-  background: purple;
+  background: #800080;
   margin: 5px 5px 0 0;
   border-radius:5px;
   line-height: 1;
@@ -173,7 +175,7 @@ ABOUT
   border-radius: 5%;
   padding: 20px;
   font-size: 1em;
-  color: black;
+  color: #000000;
   line-height: 1.5;
  
 }
@@ -184,7 +186,7 @@ ABOUT
 }
 
 .title{
-  color: black;
+  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -200,7 +202,7 @@ ABOUT
 
 
 .contact {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 2px;
   border-radius: 5px;
 }
@@ -235,7 +237,7 @@ PROJECTS
  .lightbox li {
     margin-top: 50px;
     border-radius: 10px;
-    background-color: white;   
+    background-color: #FFFFFF;   
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); 
     text-align: center;
     height: auto;
@@ -243,21 +245,21 @@ PROJECTS
 
 .projectText2 {
   background-color: #b0c4de;
-  color: black;
+  color: #000000;
   padding: 10px;
   width: 70%;
   border-radius: 10px;
   outline: none;
-  border: 1px solid purple;
+  border: 1px solid #800080;
 }
 
 .pad{
   margin-top: 10px;
-  color: white;
+  color: #FFFFFF;
 }
 
 .lightbox .projectText2:hover{
-  background-color: white;
+  background-color: #FFFFFF;
    border: 1px solid orange;
 
 }
@@ -266,7 +268,7 @@ PROJECTS
  .lightbox img {
     width: 80%;
     height: 70%;
-    border: 3px solid white;
+    border: 3px solid #FFFFFF;
     transition-property: box-shadow;
     transition-duration:  .4s;                 
     transition: transform .5s;
@@ -290,9 +292,10 @@ img:hover {
 
 .projectHeader {
   padding-top: 20px;
-  color: black;
+  color: #000000;
   font-weight: bold;
   font-size: 1em;
+  font-family: 'Oswald', sans-serif;
 }
 
 .projectText1 {
@@ -301,16 +304,12 @@ img:hover {
  padding-left: 20px;
  padding-bottom: 10px; 
  margin-bottom: 20px;
- color: black;
+ color: #000000;
  font-size: 1em;
  height: 100px;
- font-family: 'kalam';
+ font-family: 'Kalam', cursive, sans-serif;
 background-color: #F0F0F0 ;
 }
-
-
-
-
 
 /*************
 SKILLS
@@ -324,17 +323,15 @@ SKILLS
   
   padding: 20px;
   font-size: 1.1em;
-  color: black;
+  color: #000000;
   line-height: 1.5;
   text-align: center;
   
 }
 
-
-
 .skillsList{
   padding-left: 0px;
-  border: 1px solid white;
+  border: 1px solid #FFFFFF;
   border-radius: 10px;
   background: linear-gradient(#b0c4de, transparent 300%),
                  url('../img/world.jpg') no-repeat;
@@ -347,7 +344,7 @@ SKILLS
   list-style-type: none;
   margin-bottom: 20px;
   list-style-type: none;
-  border: 5px purple solid;
+  border: 5px #800080 solid;
   border-radius: 100%;
   background-color: #b0c4de;
   padding-top: 30px;
@@ -364,7 +361,7 @@ SKILLS
 .skillsList li:hover{
   opacity: 1;
   border: 5px solid orange;
-  color: white;
+  color: #FFFFFF;
 
 }
 
@@ -382,7 +379,7 @@ SOCIAL MEDIA
   padding: 1px;
   border-radius: 3px;
   font-size: 1.8em;
-  color: purple;
+  color: #800080;
 }
 
 .socialList{
@@ -424,7 +421,7 @@ footer{
   margin-top: 20px;
   font-size: .7em;
   font-weight: bold;
-  color: black;
+  color: #000000;
   opacity: .8;
   background-color: #BDBDBD;
   height: 130px;
@@ -432,7 +429,7 @@ footer{
 }
 
 footer a{
-  color: black;
+  color: #000000;
   opacity: 1;
 }
 
@@ -446,12 +443,9 @@ footer a{
 
 .fa-arrow-circle-up{
   font-size: 2em;
-  color: purple;
+  color: #800080;
 
 }
-
-
-
 
 /***********
 
@@ -518,7 +512,7 @@ MEDIA QUERIES
 /*************  Footer *************/
 
 footer a{
-  color: black;
+  color: #000000;
   opacity: 1;
 }
 
@@ -532,7 +526,7 @@ footer a{
 
 .fa-arrow-circle-up{
   font-size: 5em;
-  color: purple;
+  color: #800080;
 
 }
 
@@ -564,7 +558,7 @@ footer a{
 /********* list items ********/
 .menu li {
     list-style-type: none;
-    border: 1px purple solid;
+    border: 1px #800080 solid;
     padding: 10px;
     text-align: center;
     font-size: 1em;
@@ -588,7 +582,7 @@ footer a{
 
 
 .menu li a{
-  color: black;   
+  color: #000000;   
 }
 
 
@@ -613,13 +607,12 @@ footer a{
 
 /**********  menu ***********/
 header{
-  margin-top: 0;
+  margin-top: -40px;
   height: auto;
 }
 
 .name {
-  /*padding: 15px;*/
-  float: left;
+   float: left;
    font-size: 1.2em;
 }
 .menuList{
@@ -631,8 +624,8 @@ header{
 .menu li {
     display: inline-block;
     list-style-type: none;
-    border: 1px purple solid;
-    background-color: white;
+    border: 1px #800080 solid;
+    background-color: #FFFFFF;
     padding: 7px;
     font-size: 1em;
     font-weight: bold;
@@ -641,12 +634,12 @@ header{
 }
 
 .container {   
-    margin-top: 0; 
+    margin-top: 40px; 
     height: 600px;
   }
 
 .mainImage h3{ 
-  margin-top: 75px;
+  margin-top: 50px;
   font-size: 1.4em;
 }
 
@@ -664,7 +657,7 @@ header{
 
 .brief{
   border-radius: 20px;
-  color: black;
+  color: #000000;
   width: 90%;
 }
 
@@ -691,14 +684,18 @@ header{
 
 @media screen and (min-width: 1024px) {
 
+header{
+  margin-top: -70px;
+}
+
 .container {   
-    margin-top: 0; 
-    
+    margin-top: 70px;     
     height: 650px;
+    max-width: 1350px;
   }
 
 .mainImage h3{
-  margin-top: 83px;
+  margin-top: 15px;
   font-size: 1.7em;
 }
 
