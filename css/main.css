@@ -61,14 +61,20 @@ header{
 .name {
  margin: 20px;
  float: left; 
+ color: black;
   }
 
 .menu {
   width: 100%;
+ text-align: center;
 }
 
 .menu .button{
   color:black;
+}
+
+.menu li:hover{
+  background-color: #b0c4de;
 }
 
 
