@@ -405,7 +405,7 @@ footer a{
 
 #arrow{
   float: right;
-  margin-right: 50px;
+  margin-right: 20px;
   position: relative;
   bottom: 18px;
 }
@@ -684,8 +684,7 @@ header{
 }
 
 #about,
-#projects,
-#index {
+#projects{
   padding-top: 100px;
 }
 
