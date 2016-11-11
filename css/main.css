@@ -156,11 +156,18 @@ PROJECTS
 /******* this is for the image container ******/
 .lightbox li {
   margin-top: 50px;
+  margin-bottom: 10px;
   border-radius: 10px;
   background-color: #FFFFFF;
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
   text-align: center;
-  height: auto; }
+  height: auto; 
+  padding-bottom: 20px;}
+
+  .lightbox li:hover{
+    background-color: #ffdb99;
+  }
+
 
 .projectText2 {
   background-color: #b0c4de;
@@ -170,10 +177,6 @@ PROJECTS
   border-radius: 10px;
   outline: none;
   border: 1px solid #800080; }
-
-.pad {
-  margin-top: 10px;
-  color: #FFFFFF; }
 
 .lightbox .projectText2:hover {
   background-color: #FFFFFF;
@@ -188,13 +191,16 @@ PROJECTS
   transition-duration: .4s;
   transition: transform .5s;
   border-radius: 10px;
-  margin: 30px; }
+  margin: 30px; 
+  transition: .2s;
+}
+
+
+
 
 img:hover {
-  transform: skewY(1.5deg); }
-
-img:hover {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); }
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+ }
 
 /*******  this is for lightbox text ************/
 .projectHeader {
@@ -231,6 +237,7 @@ SKILLS
   text-align: center; }
 
 .skillsList {
+  margin-top: 20px;
   padding-left: 0px;
   border: 1px solid #FFFFFF;
   border-radius: 10px;
@@ -241,6 +248,7 @@ SKILLS
 .skillsList li {
   list-style-type: none;
   margin-bottom: 20px;
+  margin-top: 20px;
   list-style-type: none;
   border: 5px #800080 solid;
   border-radius: 100%;
@@ -250,7 +258,7 @@ SKILLS
   height: 100px;
   display: inline-block;
   position: relative;
-  margin-top: 20px;
+  
   font-weight: bold;
   font-size: .9em;
   opacity: .5; }
@@ -486,9 +494,16 @@ MEDIA QUERIES
  Gallery
 
  ********************/
+  .lightbox{
+    margin: 0 auto;
+  }
+
   .lightbox li {
     margin-left: 20px;
-    width: 30%; }
+    width: 30%; 
+
+    /* height: 400px;*/
+  }
 
   .projectText1 {
     padding: 20px 20px 20px 10px;
