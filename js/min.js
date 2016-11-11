@@ -1,0 +1,1 @@
+$(".hamburger").on("click",function(a){a.preventDefault();$(".menu").toggleClass("slide-down")});
