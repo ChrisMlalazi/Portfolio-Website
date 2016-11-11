@@ -162,10 +162,13 @@ PROJECTS
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
   text-align: center;
   height: auto; 
-  padding-bottom: 20px;}
+  padding-bottom: 20px;
+  transition: .50s;
+}
 
   .lightbox li:hover{
     background-color: #ffdb99;
+
   }
 
 
