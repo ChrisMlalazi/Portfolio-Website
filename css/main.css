@@ -119,6 +119,7 @@ ABOUT
 .bio:first-line {
   font-weight: bold;
   font-size: 1em; 
+
 }
 
 .bio::first-letter {
@@ -130,6 +131,13 @@ ABOUT
   margin: 5px 5px 0 0;
   border-radius: 5px;
   line-height: 1; 
+}
+
+.here{
+  color: #800080;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: underline;;
 }
 
 .brief {
@@ -264,6 +272,13 @@ SKILLS
   color: #000000;
   line-height: 1.2;
   text-align: center; 
+}
+
+.skills2{
+  font-size: .9em;
+  margin-top: 10px;
+  line-height: 1.5em;
+
 }
 
 .skillsList {
